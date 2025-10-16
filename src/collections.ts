@@ -1,7 +1,6 @@
 import { Directory, withSchema } from 'renoun/file-system'
 import { z } from 'zod'
 
-
 export const BlogPostDirectory = new Directory({
   path: 'content/posts',
   filter: '*.mdx',

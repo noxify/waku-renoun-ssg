@@ -9,22 +9,25 @@
     "start": "waku start"
   },
   "dependencies": {
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "react-server-dom-webpack": "19.2.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "react-server-dom-webpack": "19.1.1",
     "waku": "0.26.1",
-    "renoun": "10.5.3",
+    "renoun": "10.5.4",
     "@renoun/mdx": "3.2.1",
-    "zod": "4.1.12"
+    "zod": "4.1.12",
+    "tm-grammars": "1.24.22",
+    "tm-themes": "1.10.11"
   },
   "devDependencies": {
+    "prettier": "3.6.2",
     "@mdx-js/react": "3.1.1",
     "remark-frontmatter": "5.0.0",
     "remark-mdx-frontmatter": "5.2.0",
     "@mdx-js/rollup": "3.1.1",
     "@tailwindcss/vite": "4.1.14",
-    "@types/react": "19.2.2",
-    "@types/react-dom": "19.2.2",
+    "@types/react": "19.1.17",
+    "@types/react-dom": "19.1.11",
     "tailwindcss": "4.1.14",
     "typescript": "5.9.3"
   }
