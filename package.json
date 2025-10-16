@@ -1,0 +1,31 @@
+{
+  "name": "waku-renoun-ssg",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "renoun waku dev",
+    "build": "renoun waku build",
+    "start": "waku start"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-server-dom-webpack": "19.2.0",
+    "waku": "0.26.1",
+    "renoun": "10.5.3",
+    "@renoun/mdx": "3.2.1",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@mdx-js/react": "3.1.1",
+    "remark-frontmatter": "5.0.0",
+    "remark-mdx-frontmatter": "5.2.0",
+    "@mdx-js/rollup": "3.1.1",
+    "@tailwindcss/vite": "4.1.14",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "tailwindcss": "4.1.14",
+    "typescript": "5.9.3"
+  }
+}
