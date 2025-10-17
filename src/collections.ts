@@ -12,6 +12,7 @@ export const BlogPostDirectory = new Directory({
           title: z.string(),
           date: z.coerce.date(),
           summary: z.string().optional(),
+          category: z.string(),
           tags: z.array(z.string()).optional(),
         }),
       },

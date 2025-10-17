@@ -8,12 +8,16 @@ import remarkMdxFrontmatter from "remark-mdx-frontmatter";
 
 export default defineConfig({
   vite: {
+    optimizeDeps: {
+      //exclude: ["restyle", "prettier", "renoun"],
+    },
     resolve: {
       alias: {
         "mdx-components": path.resolve(
           import.meta.dirname,
           "./src/mdx-components.tsx"
         ),
+        "@": path.resolve(import.meta.dirname, "./src"),
       },
     },
     plugins: [
@@ -24,6 +28,5 @@ export default defineConfig({
       }),
       tailwindcss(),
     ],
-  
   },
 });

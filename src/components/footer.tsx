@@ -1,17 +1,8 @@
 export const Footer = () => {
   return (
-    <footer className="p-6 lg:fixed lg:bottom-0 lg:left-0">
-      <div>
-        visit{' '}
-        <a
-          href="https://waku.gg/"
-          target="_blank"
-          rel="noreferrer"
-          className="mt-4 inline-block underline"
-        >
-          waku.gg
-        </a>{' '}
-        to learn more
+    <footer className="border-t border-border py-8 mt-16">
+      <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
+        <p>© 2025 Waku Renoun Blog. All rights reserved.</p>
       </div>
     </footer>
   );
