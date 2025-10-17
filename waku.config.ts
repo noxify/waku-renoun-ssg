@@ -9,7 +9,7 @@ import remarkMdxFrontmatter from "remark-mdx-frontmatter";
 export default defineConfig({
   vite: {
     optimizeDeps: {
-      //exclude: ["restyle", "prettier", "renoun"],
+      exclude: [ "renoun"],
     },
     resolve: {
       alias: {
